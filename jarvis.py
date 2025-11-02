@@ -22,8 +22,8 @@ except ImportError:
     print("⚠️  pvporcupine not installed. Install with: pip install pvporcupine")
 
 # 🔑 API Keys — REPLACE THESE IF NEEDED
-GEMINI_API_KEY = "AIzaSyBG-UGRXeY-E6C7GLoHwk-m0zMFWobiNNI"
-OPENWEATHER_API_KEY = "c56b1f7067b08c376d813577d4bd78db"
+GEMINI_API_KEY = #"paste you api key"
+OPENWEATHER_API_KEY = #"paste your api key"
 
 if "YOUR_KEY_HERE" in GEMINI_API_KEY or not GEMINI_API_KEY.strip():
     raise RuntimeError("❌ Set your Gemini API key.")
@@ -561,3 +561,4 @@ if __name__ == '__main__':
             os.system("pip install pyaudio")
 
     main()
+
