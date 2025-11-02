@@ -22,7 +22,7 @@ except ImportError:
     print("⚠️  pvporcupine not installed. Install with: pip install pvporcupine")
 
 # 🔑 API Keys — REPLACE THESE IF NEEDED
-GEMINI_API_KEY = #"paste you api key"
+GEMINI_API_KEY = #"paste your api key"
 OPENWEATHER_API_KEY = #"paste your api key"
 
 if "YOUR_KEY_HERE" in GEMINI_API_KEY or not GEMINI_API_KEY.strip():
@@ -561,4 +561,5 @@ if __name__ == '__main__':
             os.system("pip install pyaudio")
 
     main()
+
 
